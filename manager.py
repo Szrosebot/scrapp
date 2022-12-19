@@ -24,9 +24,9 @@ def banner():
     import random
     # fancy logo
     b = [
-    '╔═╗┌─┐┌┬┐┬ ┬┌─┐',
-    '╚═╗├┤  │ │ │├─┘',
-    '╚═╝└─┘ ┴ └─┘┴'
+    '________________________________',
+    '*  DEVELOPED BY YUMIKO & SANTHU *',
+    '________________________________'
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{n}')
